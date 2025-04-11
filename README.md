@@ -8,8 +8,7 @@ Here are the four pages of the quiz:
 ![Results Page - Final Score](images/page4.png)
 
 ### View Live Version
-
-### Run Locally
+https://sara-j-z.github.io/eTIMSS-Quiz/
 
 
 
