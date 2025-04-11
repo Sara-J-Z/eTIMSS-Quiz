@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eTIMSS Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Page 1 - Start -->
+    <div id="page1" class="page active">
+        <img src="./images/timss logo.png" alt="timss logo"
+        width="300" 
+        height="300" />
+        <h1>Welcome to the Quiz!</h1>
+        <button id="startBtn">Start Quiz</button>
+    </div>
+
+    <!-- Page 2 - First Question -->
+<div id="page2" class="page">
+    <h2>Question 1: If the pattern 3, 6, 9, 12 was continued, which of these numbers would be one of the numbers in the pattern?</h2>
+    <form id="question1Form">
+        <label>
+            <input type="radio" name="q1" value="A"> A. 26
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="B"> B. 27
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="C"> C. 28
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="D"> D. 29
+        </label><br>
+    </form>
+    <button id="next-btn">Next</button>
+</div>
+
+    <!-- Page 3 - Second Question -->
+<div id="page3" class="page">
+    <h2>Question 2: Click each number which is a factor of 12.</h2>
+    <form id="question2Form">
+      <label>
+        <input type="checkbox" name="q2" value="1"> 1
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="2"> 2
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="3"> 3
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="4"> 4
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="5"> 5
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="6"> 6
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="7"> 7
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="8"> 8
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="9"> 9
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="10"> 10
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="11"> 11
+      </label><br>
+      <label>
+        <input type="checkbox" name="q2" value="12"> 12
+      </label><br>
+    </form>
+    <button id="finish-btn">Finish</button>
+  </div>
+  
+
+  <!-- Page 4 - Result Page -->
+<div id="page4" class="page">
+    <div id="results-container">
+      <h2>Your Score: <span id="score">0</span>/2</h2>
+      <h3 id="resultMessage"></h3>
+      <button id="retry-btn">Retry Quiz</button>
+    </div>
+  </div>
+  
+  
+
+
+    <script src="app.js"></script>
+</body>
+</html>
